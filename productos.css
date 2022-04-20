@@ -1,0 +1,119 @@
+:root {
+    --cardWidth: 12.5rem;
+    --cardHeight:15.1rem;
+    --cardMargin: 0.62rem;        
+}
+
+.categoria {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 20px;
+}
+    
+.texto-categoria{    
+    width: 85%;
+    height: 38px;;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between
+     
+}
+
+.texto-categoria h2{
+    font-size: 32px;
+}
+
+.texto-categoria img{
+    width: 16px;
+    height: 16px;
+}
+
+.texto-categoria a{
+    margin-top:10px;
+    font-size: 16px;
+    color: var(--fuente-productos-azul)
+}
+.productos {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* background: #bbb; */
+    
+}
+
+.card {
+    width: var(--cardWidth);
+    height: var(--cardHeight);
+    margin: var(--cardMargin);
+    /* border: 1px solid #ccc; */
+    /* background: #fff; */
+    box-sizing: border-box;
+}
+
+.card img{
+    width: 176px;
+    height: 174px;
+    display: flex; 
+    
+}
+
+.card h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--fuente-productos);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--fuente-productos);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--fuente-productos-azul);
+    margin-top: 10px;
+
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+
+    .card{
+        width: 8.2rem;
+        height: 14.8rem;
+        margin: 0.25rem;
+
+    } 
+
+    .card img{   
+        width: 140px;
+        height: 154px;
+    }
+    .card a {
+        font-size: 14px;
+        margin-top: 0.31rem;
+        margin-bottom: 0.31rem; 
+    }
+    .texto-categoria h2{
+        padding-left: 0.25rem;
+    }
+    .productos {
+        width: 90%;
+        justify-content: space-between;      
+    }
+    .login{
+        margin-right: 7px;
+    }
+}
+
+
