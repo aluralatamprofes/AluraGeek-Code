@@ -10,9 +10,7 @@
 body{
     font-family:'raleway';
     font-weight:700;
-    box-sizing: border-box;
-
-    
+    box-sizing: border-box;    
 }
 
 header{
@@ -21,8 +19,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
 }
 
 .cabecera_container{
@@ -37,8 +33,7 @@ header{
 }
 
 .cabecera_logo{
-   width: 9.3rem;
-   
+   width: 9.3rem;   
 }
 
 .busqueda{
@@ -90,8 +85,7 @@ header{
     background-size: cover;
     background-position: center center;
     position: static;
-    justify-content:center;
-    
+    justify-content:center;  
 }
 
 .texto h1 {
@@ -103,8 +97,7 @@ header{
     margin-top: 80px;
     margin-left: 120px;
     margin-bottom: 30px;
-    text-align:left;
-    
+    text-align:left;   
 }
 .texto p {
     font-weight: 400;
