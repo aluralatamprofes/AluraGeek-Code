@@ -29,6 +29,7 @@
 .texto-categoria img{
     width: 16px;
     height: 16px;
+    padding-right: 60px;
 }
 
 .texto-categoria a{
@@ -113,6 +114,12 @@
     }
     .login{
         margin-right: 7px;
+    }
+
+    .texto-categoria img{
+        width: 16px;
+        height: 16px;
+        padding-right: 0px;
     }
 }
 

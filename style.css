@@ -11,6 +11,7 @@ body{
     font-family:'raleway';
     font-weight:700;
     box-sizing: border-box;
+
     
 }
 
@@ -170,10 +171,10 @@ header{
         margin-left:20px;
       }
       .cabecera_container{
-        width: 95%;   
+        width: 90%;   
     }
     .cabecera_logo{
-        width: 7.3rem;        
+        width: 7.5rem;        
      }
 }
 
