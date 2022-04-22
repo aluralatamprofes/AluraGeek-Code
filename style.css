@@ -50,12 +50,6 @@ header{
     background-color: var(--background-blanco);
 }
 
-.busqueda_campo::placeholder {
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 15px;
-}
-
 .busqueda_campo:focus{
     outline: none;
 }
@@ -144,7 +138,7 @@ header{
     }
     .login {
         width: 6rem;
-        /* height: 2.5rem; */
+       
     }
     .consolas{
         margin-left: 1rem;
