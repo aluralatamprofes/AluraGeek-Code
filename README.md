@@ -5,6 +5,7 @@
 </p>
 
 ### En este repositório se encuentra el código que realizamos en nuestro Live Coding del dia 21/04/2022
+### Nuestro obejtivo era la contrucción de nuestra página principal de manera estática por lo que hasta el momento no implementamos ninguna funcionalidad con JavaScript.
 
 ## ¿Qué encontrarás?
 
