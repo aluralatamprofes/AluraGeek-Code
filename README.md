@@ -30,3 +30,5 @@ Si tienes alguna pregunta puedes realizarla a través del canal de dudas del Cha
 </p>
 
 ¡No olvides publicar un link o un vídeo de tu proyecto en Linkedin y en nuestro canal de resultados en Discord! 🏁
+
+Un punto importante: hay varias formas de desarrollar los desafíos, no crean que el código presentado es el correcto o el único a seguir, es una base y pueden comparar con su resolución y la de otros colegas.
